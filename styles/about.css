@@ -1,5 +1,4 @@
 #about {
-  height: 100%;
   padding-top: 35px; }
 
 .header {
@@ -42,11 +41,13 @@
   position: relative;
   height: calc(100% - 64px); }
   .about__content__back {
-    margin: 70px 280px 0 360px; }
+    margin: 70px 14.6% 0 18.8%;
+    width: 66%;
+    max-height: 98%; }
   .about__content__left-block {
     position: absolute;
     top: 249px;
-    left: 190px; }
+    left: 10.4%; }
     .about__content__left-block--slogan span {
       display: inline-block;
       padding: 0 8px;
@@ -57,5 +58,32 @@
       /*letter-spacing: 5px;*/ }
     .about__content__left-block--slogan span::first-letter {
       text-decoration: underline; }
+    .about__content__left-block--ici {
+      padding-top: 25px;
+      line-height: 80px;
+      font-variant: small-caps;
+      font-size: 9em;
+      font-family: 'RobotoBold', serif; }
+    .about__content__left-block--quote {
+      font-family: 'RobotoItalic';
+      margin-top: 150px;
+      line-height: 25px;
+      font-size: 18px;
+      color: #757575; }
+      .about__content__left-block--quote span {
+        font-family: 'RobotoItalic';
+        display: block;
+        margin-top: 30px;
+        font-size: 20px;
+        color: #000; }
+  .about__content__right-block {
+    position: absolute;
+    top: 290px;
+    left: 77%;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #757575; }
 
 /*# sourceMappingURL=about.css.map */

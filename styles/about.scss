@@ -1,5 +1,4 @@
 #about {
-  height: 100%;
   padding-top: 35px;
 
 }
@@ -46,12 +45,14 @@
   position: relative;
   height: calc(100% - 64px);
   &__back {
-    margin: 70px 280px 0 360px;
+    margin: 70px 14.6% 0 18.8%;
+    width: 66%;
+    max-height: 98%;
   }
   &__left-block {
     position: absolute;
     top: 249px;
-    left: 190px;
+    left: 10.4%;
     &--slogan {
       span {
         display: inline-block;
@@ -66,5 +67,36 @@
         text-decoration: underline;
       }
     }
+    &--ici {
+      padding-top: 25px;
+      line-height: 80px;
+      font-variant: small-caps;
+      font-size: 9em;
+      font-family: 'RobotoBold', serif;
+    }
+    &--quote {
+      font-family:'RobotoItalic';
+      margin-top: 150px;
+      line-height: 25px;
+      font-size: 18px;
+      color: #757575;
+      span {
+        font-family:'RobotoItalic';
+        display: block;
+        margin-top: 30px;
+        font-size: 20px;
+        color: #000;
+      }
+    }
+  }
+  &__right-block {
+    position: absolute;
+    top: 290px;
+    left: 77%;
+    font-family: 'Roboto';
+    font-size:18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #757575;
   }
 }

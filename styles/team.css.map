@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEI,kBAAK;EACH,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,KAAK;EACd,WAAW,EAAE,eAAe;EAC5B,SAAS,EAAE,IAAI;EACf,YAAY,EAAE,UAAU;EACxB,KAAK,EAAE,OAAO;;AAGhB,gCAAmB;EACjB,eAAe,EAAE,SAAS",
+"sources": ["team.scss"],
+"names": [],
+"file": "team.css"
+}

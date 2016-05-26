@@ -1,0 +1,52 @@
+#contacts {
+  padding-top: 100px;
+}
+
+.contacts__our {
+  margin-left: 18.8%;
+  &--mail_phone {
+    line-height: 110px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: 'RobotoBold', serif;
+  }
+}
+
+.contacts_us {
+  margin-left: 18.8%;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  &--form {
+    margin-top: 60px;
+    font-family: 'Roboto';
+    font-variant: small-caps;
+    font-size: 48px;
+    color: #9e9e9e;
+    input {
+      margin-bottom: 37px;
+      padding-left: 29px;
+      display: block;
+      border: none;
+      width: 45.8%;
+      border-bottom: 2px solid #cccccc; //цвет рамки
+      background: #ffffff !important; // желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым
+      outline: none; // удаляет обводку в браузерах хром(желтая) и сафари(синяя)
+      color: #9e9e9e; //цвет шрифта в обычном состоянии
+      font-size: 48px; // Размер шрифта
+      font-family: 'Roboto'; // Стиль шрифта
+      font-variant: small-caps;
+    }
+  }
+}
+
+.title {
+  display: inline-block;
+  font-family: 'Roboto', serif;
+  font-size: 23px;
+  font-variant: small-caps;
+  color: #9e9e9e;
+  &:first-letter {
+    text-decoration: underline;
+  }
+}
+

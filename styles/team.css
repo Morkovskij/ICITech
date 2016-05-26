@@ -1,0 +1,12 @@
+.team--slogan span {
+  display: inline-block;
+  padding: 0 8px;
+  font-family: 'Roboto', serif;
+  font-size: 23px;
+  font-variant: small-caps;
+  color: #9e9e9e
+  /*letter-spacing: 5px;*/ }
+.team--slogan span::first-letter {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=team.css.map */
